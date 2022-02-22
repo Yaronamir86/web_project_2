@@ -101,10 +101,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  padding-top: 223px;
+  padding-top: 190px;
 }
 
-.hours__list {
+.header-footer__list{
   list-style-type: none;
   padding: 0;
   margin: 0;
