@@ -83,7 +83,7 @@
   margin-top: 0;
 }
 
-.item__desc {
+.list-item__desc {
   min-width: fit-content;
 }
 
@@ -94,6 +94,6 @@
   flex-grow: 1;
 }
 
-.item__price {
+.list-item__price {
   min-width: fit-content;
 }
