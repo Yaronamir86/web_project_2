@@ -35,14 +35,12 @@
     line-height: 52px;
     text-align: left;
     z-index: 2;
+    width: 260px;
     
    
 }
 
-.span__accent{
 
-    display: block;
-}
 
 .about__content{
 
