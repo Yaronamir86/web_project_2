@@ -1,0 +1,145 @@
+.menu{
+
+    margin: 0;
+    background-color:#0a2750 ;
+    background-image:url(../images/background_menu.svg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:1024px;
+    color:#ffffff;
+   
+    
+    
+    
+}
+
+.menu__title{
+
+    font-family: "inter", arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    padding-top: 100px;
+    max-width: 780px;
+    margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+
+
+}
+
+.menu__subtitle{
+
+    font-family:"Noto Serif" ,'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 24px;
+    max-width: 780px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    
+
+
+
+}
+
+.menu__cards{
+
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    
+    
+   
+}
+
+.card__list{
+
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    
+    
+}
+
+.card{
+
+   width: 548px;
+   max-width: 600px;
+   text-align: left;
+   margin: 0;
+   
+   
+  
+   
+   
+   
+
+}
+
+.card__title{
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 32px;
+    margin: 0;
+    
+
+
+}
+
+.card__list-item{
+
+
+    
+    font-family: "Noto Serif" ,'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    margin-top: 16px;
+    
+    
+
+}
+
+.card__list-item:first-child{
+
+margin-top: 0;
+}
+
+.item__desc{
+    min-width: fit-content;
+    
+
+}
+
+
+
+.card__list-divider{
+    border-bottom: 1px solid #ffffff;
+    margin-left:5px;
+    margin-right: 5px;
+    flex-grow: 1;
+
+}
+
+.item__price{
+     min-width: fit-content;
+    ;  
+}
