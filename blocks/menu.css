@@ -5,8 +5,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 1024px;
   color: #ffffff;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .menu__title {
@@ -15,7 +16,6 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  padding-top: 100px;
   max-width: 780px;
   margin: auto;
   display: flex;
@@ -60,7 +60,7 @@
 }
 
 .card__title {
-  font-family: "Inter";
+  font-family: "inter", arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -83,13 +83,9 @@
   margin-top: 0;
 }
 
-
-
 .card__list-divider {
   border-bottom: 1px solid #ffffff;
   margin-left: 5px;
   margin-right: 5px;
   flex-grow: 1;
 }
-
-

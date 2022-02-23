@@ -1,26 +1,17 @@
 @import "../vendor/normalize.css";
 
-@import "../blocks.css/header.css";
+@import "../blocks/page.css";
 
-@import "../blocks.css/menu.css";
+@import "../blocks/header.css";
 
-@import "../blocks.css/recipes.css";
+@import "../blocks/nav.css";
 
-@import "../blocks.css/reservation.css";
+@import "../blocks/menu.css";
 
-@import "../blocks.css/about.css";
+@import "../blocks/recipes.css";
 
-@import "../blocks.css/footer.css";
+@import "../blocks/reservation.css";
 
-body {
-  margin: 0;
-}
+@import "../blocks/about.css";
 
-.page {
-  max-width: 1600px;
-  min-width: 1100px;
-  margin: 0 auto;
-  font-family: "inter", arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-}
+@import "../blocks/footer.css";
