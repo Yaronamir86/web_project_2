@@ -21,6 +21,7 @@
   color: #ffffff;
   position: relative;
   overflow: hidden;
+  
 }
 
 .about__title {
@@ -60,6 +61,7 @@
   position: absolute;
   left: -129px;
   top: -152px;
+  
 }
 
 .about__circle_animation_blurred {
