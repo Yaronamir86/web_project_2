@@ -136,7 +136,7 @@
                 <li class="card__list-item">
                   Almond Croissant
                   <div class="card__list-divider"></div>
-                  >$2
+                  $2
                 </li>
                 <li class="card__list-item">
                   Banana Bread
@@ -144,7 +144,7 @@
                   $1.75
                 </li>
                 <li class="card__list-item">
-                  >Key Lime Pie
+                  Key Lime Pie
                   <div class="card__list-divider"></div>
                   $3
                 </li>
@@ -161,7 +161,7 @@
                 <li class="card__list-item">
                   Fresh Bug’uette
                   <div class="card__list-divider"></div>
-                  >$2
+                  $2
                 </li>
               </ul>
             </div>
@@ -204,60 +204,68 @@
         </section>
         <section class="reservation" id="book-a-table">
           <h2 class="reservation__title">Book a table</h2>
-          <div class="reservation__form">
-            <form class="form">
-              <fieldset class="form__fieldset">
-                <label for="name" class="form__label">Name *</label>
-                <input
-                  type="text"
-                  class="form__input"
-                  id="name"
-                  name="name"
-                  placeholder="Name Surname"
-                />
-              </fieldset>
-              <fieldset class="form__fieldset">
-                <label for="number-of-guests" class="form__label"
-                  >Number of guests *</label
-                >
-                <input
-                  type="number"
-                  class="form__input"
-                  id="number-of-guests"
-                  name="number-of-guests"
-                  placeholder="1-8"
-                />
-              </fieldset>
-              <fieldset class="form__fieldset">
-                <label for="date" class="form__label">Date & time *</label>
-                <input type="date" class="form__input" id="date" name="date" />
-              </fieldset>
-              <fieldset class="form__fieldset">
-                <label for="date" class="form__label">Your email *</label>
-                <input
-                  type="email"
-                  class="form__input"
-                  id="email"
-                  name="email"
-                  placeholder="email@email.com"
-                />
-              </fieldset>
-              <fieldset class="form__fieldset">
-                <button type="submit" class="form__button">Book a table</button>
-              </fieldset>
-              <fieldset class="form__checkbox">
-                <input
-                  type="checkbox"
-                  class="form__input-checkbox"
-                  name="i-agree"
-                  id="i-agree"
-                />
-                <label for="i-agree" class="form__label"
-                  >I agree with the terms of use</label
-                >
-              </fieldset>
-            </form>
-          </div>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                name="name"
+                placeholder="Name Surname"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="number-of-guests" class="form__label"
+                >Number of guests *</label
+              >
+              <input
+                type="number"
+                class="form__input"
+                id="number-of-guests"
+                name="number-of-guests"
+                placeholder="1-8"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="date" class="form__label">Date & time *</label>
+              <input
+                type="date"
+                class="form__input"
+                id="date"
+                name="date"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="date" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button type="submit" class="form__button">Book a table</button>
+            </fieldset>
+            <fieldset class="form__checkbox">
+              <input
+                type="checkbox"
+                class="form__input-checkbox"
+                name="i-agree"
+                id="i-agree"
+                required
+              />
+              <label for="i-agree" class="form__label"
+                >I agree with the terms of use</label
+              >
+            </fieldset>
+          </form>
         </section>
         <section class="about">
           <h2 class="about__title">About the coffee shop</h2>
@@ -281,7 +289,6 @@
           <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
-
       <footer class="footer" id="contacts">
         <div class="footer__content">
           <img
